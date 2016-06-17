@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shippable Rocks !</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  <div class="container">
+        <label>Github repository link</label>
+        <div id="warningDiv" class="alert alert-warning fade in">
+          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+          <span id="warningDivText">There was some problem with the url entered ...</span>
+        </div>
+        <input  type="url"
+                class="form-control"
+                id="queryInp"
+                size="50"
+                placeholder="https://github.com/facebook/react"
+                required >
+
+      <button class="btn btn-primary pull-right"
+              onclick="shippable.search()">Submit</button>
+
+    <div id="openIssueList" class="table-responsive">
+      <!-- This is the statistics container ... -->
+    </div>
+    <div id="loadingIcon"><i class="fa fa-spinner" style="font-size:36px;"></i></div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+Errors in URL entered are handled, and different kinds of errors give different messages for easier debugging.
+
+Comparing the 'created_at' timestamp for an issue with now minus 24 hours
+now minus 7 days to get the data required.
+
+The App takes care of complete list of open issues, not just first 100.
+
+To run the app : go to folder shippable.
+nohup python -m SimpleHTTPServer 3000 &
+and open this link in browser : http://localhost:3000/index.html
+
+
+

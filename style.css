@@ -1,0 +1,22 @@
+caption {
+  text-align: center;
+}
+
+th {
+  width: 50%;
+}
+
+td {
+  text-align: center;
+}
+
+#loadingIcon {
+  display:none;
+  top:50%;
+  left:50%;
+  position: absolute;
+}
+
+#warningDiv {
+  display: none;
+}
