@@ -32,4 +32,11 @@ nohup python -m SimpleHTTPServer 3000 &
 and open this link in browser : http://localhost:3000/index.html
 
 
+Scope of improvement :
+1. We have myriad of data from the API,
+    the UI can include as many thing as anybody could ever want.
+2. Since the requirement was very small, scope is limited.
+    But if taken on a large scale, literally the complete git client UI can be created from these API's.
+
+
 
